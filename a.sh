@@ -1,1 +1,0 @@
-pylint --msg-template='{msg_id}:{line:3d}:{column}:{msg}' audit_functions.py  | grep "^[A-Za-z-]" | head -n -2 | sort -k1,4 -s
